@@ -2,7 +2,7 @@
 
 
 def repeated_items(sample_tuple):
-    repeated_set = {item for item in sample_tuple if sample_tuple.count(item) > 1}
+    repeated_set = {item for item in sample_tuple if sample_tuple.count(item) > 0}
     return tuple(repeated_set)
 
 
